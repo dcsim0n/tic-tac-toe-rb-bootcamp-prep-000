@@ -111,9 +111,15 @@ def current_player(board)
 end
 
 def play(board)
+<<<<<<< HEAD
   
   #is it over yet?
   puts "Enter 1-9"
+=======
+  puts "Welcome to Tic Tac Toe"
+  display_board(board)
+  #is it over yet?
+>>>>>>> 827e171bcfe2910a7c0e56c4e9aab71255bc1775
   while turn_count(board) < 9 
     if over?(board)
       if player = winner(board)
