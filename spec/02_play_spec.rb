@@ -45,14 +45,12 @@ describe './lib/tic_tac_toe.rb' do
         Process.exit!(true) if num_of_turns > 10
       
       end.and_call_original
-=======
       #allow(self).to receive(:turn) do
       #  num_of_turns += 1
       
       #  Process.exit!(true) if num_of_turns > 10
       
       #end.and_call_original
->>>>>>> 827e171bcfe2910a7c0e56c4e9aab71255bc1775
 
       play(board)
 
